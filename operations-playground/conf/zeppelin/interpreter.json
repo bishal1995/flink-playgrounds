@@ -2785,7 +2785,7 @@
       "properties": {
         "FLINK_HOME": {
           "name": "FLINK_HOME",
-          "value": "sdfsdfdsfsdds",
+          "value": "/deps/flink-1.10.1-bin-scala_2.11",
           "type": "string",
           "description": "Location of flink distribution"
         },
@@ -2803,13 +2803,13 @@
         },
         "flink.execution.mode": {
           "name": "flink.execution.mode",
-          "value": "local",
+          "value": "remote",
           "type": "string",
           "description": "Execution mode, it could be local|remote|yarn"
         },
         "flink.execution.remote.host": {
           "name": "flink.execution.remote.host",
-          "value": "",
+          "value": "jobmanager",
           "type": "string",
           "description": "Host name of running JobManager. Only used for remote mode"
         },
